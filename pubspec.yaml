@@ -24,15 +24,15 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
   shared_preferences: ^0.4.2
+  dio: ^3.0.6
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  json_model:
-    git:
-      url: 'https://github.com/wbtvc/json_model.git'
-  build_runner: ^1.6.0
-  json_serializable: ^3.0.0
+  json_model: #latest version
+  build_runner: ^1.0.0
+  json_serializable: ^2.0.0
+  intl_translation: ^0.17.4
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
