@@ -44,8 +44,8 @@ class ThemeModel extends ProfileChangeNotifier {
 }
 
 // app 语言状态
-class LocalModel extends ProfileChangeNotifier {
-  Locale getLocal() {
+class LocaleModel extends ProfileChangeNotifier {
+  Locale getLocale() {
     if (_profile.locale == null) return null;
     var t = _profile.locale.split("_");
     return Locale(t[0], t[1]);
